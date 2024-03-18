@@ -2,7 +2,7 @@
 <root>
     <color>
         <NodeTree>
-            <NodeName>lcm cta unlimitedCT eyeCare hbm ccbb wpCalib sunlightScreen maxBrightness gabb dcBacklight PaperMode</NodeName>
+            <NodeName>lcm cta unlimitedCT eyeCare hbm ccbb wpCalib sunlightScreen maxBrightness gabb dcBacklight PaperMode dither</NodeName>
         </NodeTree>
         <lcm>
             <lcmParamName>lcm_num lcm_array</lcmParamName>
@@ -50,8 +50,8 @@
             <eyeCareCoeff6>-9.60406782466124e-15 1.66188652856167e-10 -5.09803085992994e-07 -0.00137786371663093</eyeCareCoeff6>
             <eyeCareCoeff7>-1.33144403928589e-13 2.40488944874160e-09 -9.45041700602033e-06 -0.00670709090270771</eyeCareCoeff7>
             <eyeCareCoeff8>-1.50601238109991e-12 1.70055774826166e-08 0.000133758469317897 -0.327654965125629</eyeCareCoeff8>
-            <maxCCT>6500</maxCCT>
-            <minCCT>3800</minCCT>
+            <maxCCT>7000</maxCCT>
+            <minCCT>4000</minCCT>
         </eyeCare>
         <hbm>
             <hbmParamName>hbmTrigerLux hbmExitThreshold hbmKeepOnMaxTime hbmRestTime maxBL closeDelay</hbmParamName>
@@ -107,7 +107,7 @@
         <maxBrightness>
             <maxBrightnessParamName>maxBrightnessEnable typicalBrightness startBrightness brightnessStep</maxBrightnessParamName>
             <maxBrightnessEnable>0</maxBrightnessEnable>
-            <typicalBrightness>400</typicalBrightness>
+            <typicalBrightness>450</typicalBrightness>
             <startBrightness>308</startBrightness>
             <brightnessStep>1.5</brightnessStep>
         </maxBrightness>
@@ -157,5 +157,11 @@
             <paperCoeff1>0.686 0.262 0.052 0.146 0.816 0.038 0.08 0.268 0.652</paperCoeff1>
             <paperCoeff2>0.218 0.693 0.089 0.218 0.693 0.089 0.218 0.693 0.089</paperCoeff2>
         </PaperMode>
+        <dither>
+            <ditherParamName>DitherStrength HistControl Hist0Thresh</ditherParamName>
+            <DitherStrength>4</DitherStrength>
+            <HistControl>10 30</HistControl>
+            <Hist0Thresh>80 90</Hist0Thresh>
+        </dither>
     </color>
 </root>
