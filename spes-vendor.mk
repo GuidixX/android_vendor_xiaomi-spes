@@ -1649,7 +1649,9 @@ PRODUCT_COPY_FILES += \
  vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxQcelp13Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Enc.so \
  vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVdec.so \
  vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVenc.so \
- vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVideoDSMode.so
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVideoDSMode.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib/libbmabufheap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbmabufheap.so \
+ vendor/xiaomi/spes/proprietary/vendor/lib64/libbmabufheap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbmabufheap.so \
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
